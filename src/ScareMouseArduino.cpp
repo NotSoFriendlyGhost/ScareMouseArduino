@@ -59,8 +59,7 @@ void loop() {
     while (digitalRead(startPin) == LOW) {
       wdt_reset();
     }
-    while (1)
-      ;
+    while (1);
   }
   delay(1000 / samplingRate);
   int sample = scale.get_units();//analogRead(loadCell);
