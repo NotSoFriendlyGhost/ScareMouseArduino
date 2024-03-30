@@ -74,7 +74,7 @@ void loop() {
     display.clearDisplay();
     display.setCursor(0, 50);
     display.println("Collecting...");
-    pixelLocation = 2;
+    pixelLocation = 1;
   }
   startSample = endSample;
   firstSample = false;
