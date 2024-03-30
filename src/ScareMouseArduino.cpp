@@ -1,4 +1,4 @@
-#include "Arduino.h"
+#include <Arduino.h>
 #include <avr/wdt.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
